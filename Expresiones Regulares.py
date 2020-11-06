@@ -104,7 +104,7 @@ print()
 print("Busqueda de url's")
 print()
 
-patron9 = r"\w+.[\w\-\.]+\/"
+patron9 = r"[hH][tT][tT][pP][]\:\/\/[\w\-\.]+\/[a-zA-Z-_]+"
 
 coincidencias9 = re.findall(patron9, texto)
 
